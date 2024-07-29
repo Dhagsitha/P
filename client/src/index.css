@@ -1,0 +1,11 @@
+:root {
+  --primary:rgb(16, 92, 49);
+  --secondary:rgb(9, 125, 60);
+}
+
+body{
+  margin-top: 8%;
+  background-color: white;
+  margin-bottom: 2%;
+} 
+

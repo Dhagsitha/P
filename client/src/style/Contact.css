@@ -1,0 +1,82 @@
+.contact{
+    overflow: hidden;
+    width: 100%; 
+}
+
+.contact .container {
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px auto 0;
+    flex: 1;
+}
+
+.contact .image {
+    background-image: url('https://img.freepik.com/premium-vector/two-man-using-laptop-sitting-opposite-direction-same-desk_1302-22700.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 30%;
+    flex: 1;
+}
+
+.contact .form-container {
+    padding: 10px;
+    width: 50%;
+}
+
+.contact form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea,
+.contact input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Cambria, serif;
+    font-size: 16px;
+}
+
+.contact textarea {
+    resize: vertical;
+}
+
+.contact input[type="submit"] {
+    background-color: #0F292F;
+    color: white;
+    cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #14A098;
+}
+
+.contact .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.contact .icon {
+    font-size: 18px;
+    color: #0F292F;
+    margin: 0 10px;
+}
+
+.contact footer {
+    background-color: #2A363B;
+    margin-top: 80px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    flex-shrink: 0;
+}

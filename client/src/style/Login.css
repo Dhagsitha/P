@@ -1,0 +1,98 @@
+.login .form-login{
+    margin-left: 35%;
+    margin-right: 35%;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.login .form-login h2{
+    margin-top: -1%;
+}
+
+.login .form-login{
+    text-align: center;
+    padding:2%;
+}
+.login .form-login form{
+    margin-top:10%;
+}
+
+.login .form-login input{
+    width: 80%;
+    height: 2%;
+    border: 3px solid #75797a;
+    padding: 8px;
+    outline: none;
+    margin-bottom:3%;
+    border-radius:10px;
+}
+
+.login .form-login .radio-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login .form-login .radio-group label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 9px 20px;
+    background-color: #fff;
+    color: #75797a;
+    border: 2px solid #75797a;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.login .form-login .radio-group input[type="radio"] {
+    display: none;
+}
+
+.login .form-login .radio-group input[type="radio"]:checked + label {
+    background-color: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+}
+
+
+.login .form-login input[type="submit"]{
+    margin-top:1%;
+    width: 80%;
+    height: 2%;
+    background-color: var(--primary);
+    padding: 8px;
+    margin-bottom:8%;
+    border-radius:10px;
+    border:none;
+    color:#fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login .form-login input[type="submit"]:hover{
+    background-color: var(--secondary);
+}
+.login .form-login a{
+    color:#000;
+}
+.login .form-login a:hover{
+    color: #0b6662;
+}
+.errorMessage{
+    margin-top:-10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+.error
+{
+    margin-top:-9px;
+    color: rgb(171, 22, 22);
+}
+.login h3{
+    margin:2px;
+}
